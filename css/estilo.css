@@ -1,0 +1,155 @@
+  *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        html{
+            font-family: arial;
+            font-size: 62.5%;   
+             }
+        header{
+            background-color: black;
+            color: azure;
+            font-size: 1.8rem;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+        }
+        footer{
+            background-color: black;
+            color: azure;
+            text-align: center;
+            font-size: 1.8rem;
+            padding: 1rem;
+        }
+        .conteudo{
+            font-size: 1.6rem;
+            background-color: white;
+            padding: 1.5rem;
+            text-align: left;
+            margin: 0 auto;
+            max-width: 95%;
+        }
+    
+    .conteudo-topo{
+        background-color:white ;
+        font-size:1.6rem ;
+        padding: 1..5rem;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 95%;
+        padding-top: 10rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+
+    h2{
+        font-size: 1.9rem;
+    }
+
+
+        h3{
+            font-size: 1.7rem;
+        }
+
+
+        h4{
+            font-size: 1.6rem;
+        }
+
+
+        p{
+            font-size: 1.6rem;
+            font-family: arial;
+            padding: 1rem;
+        }
+    figure{
+        text-align: center;
+    }
+        .imagens-site{
+            border-radius: 10px 15px 10px 15px;
+            width: 30%;
+            height: 10%;
+        }
+      @media(min-width: 280px) and (max-width: 1200px){
+            .imagens-site{
+                border-radius: 10px 15px 10px 15px;
+                width: 90%;
+                height: 70%;
+                
+            }    
+        }
+        #compras{
+            background-color: darkgreen;
+            width: 150px;
+            height: 100px;
+            right: 0;
+            position:fixed;
+            text-align: center;
+            margin-top: 6rem;
+            z-index: 1;
+        }
+        #grid_conteudo{
+            background-color: black;
+        }
+        .grid{
+            display: grid;
+            grid-gap: 1px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) );
+            max-width: 1200px;
+            margin: 0 auto;        
+        }
+   .grid div{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 0.1rem;
+   }
+   #formulario{
+    background-color:darkgrey;
+   }
+   input{
+    border: solid;
+    padding:5px ;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 1.8rem;
+   }
+   #mensagem{
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+     font-size:1.3rem ;
+   }
+   #btn-limpar{
+    background-color:red;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+   }
+   #btn-enviar{
+    background-color: green;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+   }
+   nav{
+    text-align: right;
+    font-size: 1.6rem;
+    word-spacing: 10px;
+    margin-right: 5%;
+    padding-bottom: 5px;
+   }
+   a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   }
+   a:hover{
+    color: yellow;
+   }
