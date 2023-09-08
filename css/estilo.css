@@ -6,21 +6,25 @@
         html{
             font-family: arial;
             font-size: 62.5%;   
+            scroll-behavior:smooth ;
              }
         header{
-            background-color: black;
+            background: linear-gradient(to top, white, red );
             color: azure;
             font-size: 1.8rem;
             padding: 1rem;
             position: fixed;
-            width: 100%;
+            width:100% ;
+            
         }
         footer{
-            background-color: black;
-            color: azure;
+            background: linear-gradient(to bottom, white,red);
+            color:black;
             text-align: center;
             font-size: 1.8rem;
-            padding: 1rem;
+            padding: 2rem;
+ 
+        
         }
         .conteudo{
             font-size: 1.6rem;
@@ -38,12 +42,15 @@
         text-align: left;
         margin: 0 auto;
         max-width: 95%;
-        padding-top: 10rem;
+        padding-top: 31rem;
     }
 
     h1{
-        font-size: 2.5rem;
-        text-align: left;
+        font-size: 2rem;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        color:red;
+        
     }
 
 
@@ -60,7 +67,13 @@
         h4{
             font-size: 1.6rem;
         }
+        h5{
+            font-size: 3rem;
+            color: red;
+            text-shadow: 1px 1px 1px black;
+            text-align: center;
 
+        }
 
         p{
             font-size: 1.6rem;
@@ -69,11 +82,13 @@
         }
     figure{
         text-align: center;
+        padding: 1rem;
     }
         .imagens-site{
-            border-radius: 10px 15px 10px 15px;
-            width: 30%;
-            height: 10%;
+            border-radius: 10px 10px 10px 10px;
+            width: 70%;
+            height: 50%;
+            border: solid;
         }
       @media(min-width: 280px) and (max-width: 1200px){
             .imagens-site{
@@ -84,18 +99,39 @@
             }    
         }
         #compras{
-            background-color: darkgreen;
-            width: 150px;
-            height: 100px;
+            background-color: rgba(255, 215, 0, 0.5);
+            width: 300px;
+            height: 150px;
             right: 0;
             position:fixed;
             text-align: center;
-            margin-top: 6rem;
+            margin-top: 21rem;
             z-index: 1;
+            border-radius: 20px;
+            padding-top: 30px;
+            border: solid rgb(0, 255, 0);
         }
+        @media(min-width:280px) and (max-width:820px){
+
+            #compras{
+                background-color: rgba(255, 215, 0, 0.5);
+                width: 160px;
+                height: 100px;
+                right: 0;
+                position:fixed;
+                text-align: center;
+                margin-top: 25rem;
+                z-index: 1;
+                border-radius: 20px;
+                padding-top: 5px;
+                border: solid rgb(0, 255, 0);
+            }
+        }
+
         #grid_conteudo{
-            background-color: black;
-        }
+            background-color: white;
+            padding-top: 25rem;
+                }
         .grid{
             display: grid;
             grid-gap: 1px;
@@ -105,8 +141,8 @@
         }
    .grid div{
     text-align: center;
-    background-color: aquamarine;
-    padding: 0.1rem;
+    
+    padding: 0.5rem;
    }
    #formulario{
     background-color:darkgrey;
@@ -141,15 +177,28 @@
    nav{
     text-align: right;
     font-size: 1.6rem;
-    word-spacing: 10px;
+    word-spacing: 30px;
     margin-right: 5%;
     padding-bottom: 5px;
    }
    a{
     text-decoration: none;
-    color: white;
+    color: yellow;
     font-weight: bold;
+    text-shadow:1px 1px 2px black;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    border:solid yellow;
    }
    a:hover{
-    color: yellow;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    border: solid yellow;
+   }
+   #btn-compras{
+text-align: center;
    }
